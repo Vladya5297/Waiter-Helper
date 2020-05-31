@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Waiter Helper - Restaurant Plan</title>
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="jquery-ui/jquery-ui.min.css">
+  <script src="jquery/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="jquery-ui/jquery-ui.min.js"></script>
+  <script src="js/browser.js" defer></script>
+  <script src="js/websocket.js" defer></script>
+</head>
+
+<body>
+  <header class="flex_box">
+
+    <div class="header_button" id="settings"></div>
+
+    <div class="room_name">MAIN ROOM</div>
+
+    <div class="header_button" style="cursor: default;"></div>
+
+  </header>
+
+  <main class="flex_box">
+
+    <div id="hidden_menu">
+
+      <input type="button" value="New table" class="options_button accent_button" id="new_table">
+
+      <input type="text" class="options_text new_line" placeholder="Table name" id="table_name">
+
+      <input type="button" value="Save" class="options_button new_line" id="save_button">
+
+      <div class="new_line">
+        <label for="square_radio">Square</label>
+        <input type="radio" name="shape" id="square_radio" value="square">
+      </div>
+
+      <div class="new_line">
+        <label for="circle_radio">Circle</label>
+        <input type="radio" name="shape" id="circle_radio" value="circle">
+      </div>
+
+      <input type="button" value="Delete" class="options_button new_line" id="delete_button">
+
+      <div class="dialog_form" id="table_dialog">
+        <input type="text" class="options_text" placeholder="Code" id="include_code" disabled>
+        <input type="text" class="options_text" placeholder="Name" id="include_name">
+      </div>
+
+      <div class="dialog_form" id="card_dialog">
+        <input type="text" class="options_text" placeholder="Code" id="include_code" disabled>
+        <input type="text" class="options_text" placeholder="Name" id="include_name">
+      </div>
+
+    </div>
+
+    <div class="slide_button" id="slide_button">
+      <div class="slide_icon"></div>
+    </div>
+
+    <div class="work_space">
+
+    </div>
+
+  </main>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+{
+  "name": "waiterhelper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-plugin-jquery": "^1.5.1",
+    "express": "^4.17.1",
+    "node-static": "^0.7.11",
+    "pg": "^7.18.2",
+    "socket.io": "^2.3.0",
+    "ws": "^7.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-jquery": "^2.0.0",
+    "eslint-config-standard": "^13.0.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^9.2.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}
